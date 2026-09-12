@@ -6,7 +6,7 @@ public class overriding {
         obj1.area();
         shape[] obj2 = {new circle(), new rectangle(5, 10)};
         for (shape s : obj2) {
-            s.area();
+            s.area();        
         }
     }
 }
